@@ -6,10 +6,12 @@ public class Veiculo {
 	private String marca;
 	private String modelo;	
 	private int ano;
-	private double valorKmRodado;
-	private double kmInicial;
-	private double kmFinal;
+	private double valorKmRodado=0.6;
+	private int kmInicial=10000;
+	private int kmFinal;
 	private double valorDeLocacao;
+	
+	
 	public String getPlaca() {
 		return placa;
 	}
@@ -40,16 +42,16 @@ public class Veiculo {
 	public void setValorKmRodado(double valorKmRodado) {
 		this.valorKmRodado = valorKmRodado;
 	}
-	public double getKmInicial() {
+	public int getKmInicial() {
 		return kmInicial;
 	}
-	public void setKmInicial(double kmInicial) {
+	public void setKmInicial(int kmInicial) {
 		this.kmInicial = kmInicial;
 	}
-	public double getKmFinal() {
+	public int getKmFinal() {
 		return kmFinal;
 	}
-	public void setKmFinal(double kmFinal) {
+	public void setKmFinal(int kmFinal) {
 		this.kmFinal = kmFinal;
 	}
 	public double getValorDeLocacao() {
