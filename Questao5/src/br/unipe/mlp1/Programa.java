@@ -1,6 +1,6 @@
 package br.unipe.mlp1;
 
-/* Flaviano Cezar e Diogo de Andrade
+/* Flaviano Cesar e Diogo de Andrade
  * Questao 5 da Lista I - 1º Estagio
 */
 
