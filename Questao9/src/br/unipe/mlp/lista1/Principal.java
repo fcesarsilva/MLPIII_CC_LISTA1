@@ -32,7 +32,7 @@ public class Principal {
 							
 				}else{
 					
-					JOptionPane.showMessageDialog(null, "Valores inválidos, tente novamente....");
+					JOptionPane.showMessageDialog(null, "Valores inválidos, tente novamente.....");
 				}
 				
 				JOptionPane.showInternalMessageDialog(null, valorLocacao);	
